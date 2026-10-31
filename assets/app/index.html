@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light">
+<title>我的消费手账</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a><div class="shell">
+<header class="topbar"><div><span class="brand-mark">账</span><span class="eyebrow">消费年鉴</span><span class="edition" id="project-range">私人手账</span></div>
+<div class="tools"><span id="save-status" role="status" aria-live="polite">正在打开本机项目</span><button class="text-btn" id="retry-save" hidden>重试保存</button><button class="text-btn" id="history">恢复历史</button><button class="text-btn" id="backup">导出备份</button><button class="text-btn" id="restore">导入恢复</button></div></header>
+<nav class="mainnav" aria-label="手账模块">
+<button class="navbtn active" data-module="overview" aria-current="page">总览</button><button class="navbtn" data-module="archive">档案馆</button><button class="navbtn" data-module="junk">买垃圾了吗</button><button class="navbtn" data-module="monthly">幸福月报</button><button class="navbtn" data-module="personality">消费人格</button><button class="navbtn" data-module="advice">明年建议</button></nav>
+<div id="collection-status" role="status" aria-live="polite"></div><div id="alerts" aria-live="polite"></div><main id="main" tabindex="-1"><p>正在翻开手账……</p></main>
+<footer><span>把每一笔，放回生活里。</span><button class="text-btn" id="coverage-open">数据范围与金额说明</button><span>本机项目 · 图片缺失如实留白</span></footer></div>
+<dialog id="modal"><div class="dialog-head"><h2 id="modal-title"></h2><button class="icon-btn" id="modal-close" aria-label="关闭对话框">×</button></div><div id="modal-body"></div></dialog>
+<input id="import-file" type="file" accept="application/json,.json" hidden>
+<script src="loader.js"></script>
+</body></html>

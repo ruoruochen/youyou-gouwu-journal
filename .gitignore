@@ -1,0 +1,21 @@
+# Personal runtime projects never belong in the published skill.
+taobao-journal/
+.youyou-taobao-journal/
+raw/
+images/
+checkpoints/
+reports/
+backups/
+work/
+skill-build-work/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.pyc
+__pycache__/
+.env
+.env.*
+!.env.example
+.DS_Store

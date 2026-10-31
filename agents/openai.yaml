@@ -1,0 +1,6 @@
+interface:
+  display_name: "又又淘宝消费手账"
+  short_description: "登录后自动整理多年淘宝消费，生成幸福月报、消费人格和下一年小任务"
+  default_prompt: "使用 $youyou-taobao-journal 分析我的10年淘宝消费记录，自动采集和续跑，保留原始数据与已有标签。"
+policy:
+  allow_implicit_invocation: true
