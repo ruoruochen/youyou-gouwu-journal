@@ -1,9 +1,9 @@
 ---
-name: youyou-taobao-journal
+name: youyou-gouwu-journal
 description: "Analyze X years of personal Taobao purchases (淘宝消费记录): automatically collect and resume orders, verify item-level paid prices, preserve labels, and create a six-module journal with happiness reports and shareable fictional-character matches. Use for buyer spending reviews and incremental updates, not seller operations or purchasing."
 ---
 
-# Youyou Taobao Journal · Trial
+# Youyou Gouwu Journal · Trial
 
 Turn “analyze X years of my Taobao purchases” into a working personal journal. The assistant handles setup, paths, pagination, imports, backups, and articles. In the normal flow, the user only signs into Taobao and labels item usage. Do not delegate shell commands, spreadsheet preparation, or page-by-page work to the user.
 
